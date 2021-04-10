@@ -15,16 +15,16 @@ Arquivo 'dependecies', que pode ser encontrado em https://github.com/fellowsheep
 
 ### Intruções para compilar as Listas:
 - Fazer o download em zip do repositório;
-- Ir até onde o arquivo foi baixado e extrair os arquivos depois abrir PG2021-1;
-- Dentro da pasta PG2021-1 estará as Listas, escolher uma Lista para ser aberta;
-- Dentro das pastas 'Lista' estará as correspondentes soluções das Listas, só precisa abrir a solução da Lista escolhida no Visual Studio (Ex.: "Lista1.sln");
-- Após a solução estar aberta, deve-se selecionar um projeto dentro da Lista para executar(Ex.: "Exercício1"), cada um corresponde a um exercício;
-- No gerenciador de soluções, clique com o botão direito do mouse em cima de um deles(Ex.: "Exercício1"), e selecione "Depurar" e depois "Iniciar Nova Instância".
+- Ir até onde o arquivo foi baixado, clicar com o botão direito do mouse na pasta e depois selecionar "Extrair aqui" e então abrir PG2021-1-main;
+- Dentro da pasta PG2021-1-main estará as Listas, escolher uma Lista para ser aberta;
+- Dentro das pastas 'Lista' estará as correspondentes soluções das Listas, só precisa abrir a solução da Lista escolhida no Visual Studio 2019 (Ex.: "Lista1.sln");
+- Após a solução estar aberta, deve-se selecionar um projeto dentro da Lista para executar (Ex.: "Exercício1"), cada um corresponde a um exercício;
+- No gerenciador de soluções do Visual Studios, clique com o botão direito do mouse em cima de um dos exercícios (Ex.: "Exercício1"), e selecione "Depurar" e depois "Iniciar Nova Instância".
 
 ### Informações sobre o código:
 Código usado é C++ juntamente com o OpenGL e GLSL, e as bibliotecas adicionais GLAD, GLFW e GLM.
 
-OBS: Alguns exercícios eram particionados em partes(Ex.: 1.a, 1.b, 1.c) e foram feitos em um projeto só;
+OBS: Alguns exercícios eram particionados em partes (Ex.: 1.a, 1.b, 1.c) e foram feitos em um projeto só;
 Outros exercícios foram feitos junto com outros e colocados em um projeto só, eles aparecem como no exemplo a seguir: "Exercício1-3" - resposta dos exercício de número 1 a 3.
 
 * Lista1:

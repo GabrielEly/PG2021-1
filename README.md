@@ -23,11 +23,8 @@ Além disso, é possível que a solução abra no modo de Debug "x64", o certo �
 - Dentro da pasta PG2021-1-main estará as Listas, escolher uma Lista para ser aberta;
 - Dentro das pastas "Lista" estará as correspondentes soluções das Listas, só precisa abrir a solução da Lista escolhida no Visual Studio 2019 (Ex.: "Lista1.sln");
 - Verificar o modo de Debug da solução, este deve estar em "x86" na barra de feramentas superior do Visual Studio. Caso não esteja, deverá ser mudado para "x86";
-- Após a solução estar aberta, há duas maneiras de executar os projetos:
-
-  - Todos de uma vez: Na barra de ferramentas superior do Visual Studio, clique em "Iniciar". Caso dê algum erro de inicialização de símbolos, apenas clique em "Continuar" no mesmo lugar que antes estava "Iniciar".
-
-  - Um por um: No gerenciador de soluções do Visual Studios, clique com o botão direito do mouse em cima de um dos exercícios (Ex.: "Exercício1"), e selecione "Depurar" e depois "Iniciar Nova Instância".
+- Após a solução estar aberta, deve-se selecionar um projeto dentro da Lista para executar (Ex.: "Exercício1"), cada um corresponde a um exercício;
+- No gerenciador de soluções do Visual Studios, clique com o botão direito do mouse em cima de um dos exercícios (Ex.: "Exercício1"), e selecione "Depurar" e depois "Iniciar Nova Instância".
 
 ### Informações sobre o código:
 Código usado é C++ juntamente com o OpenGL e GLSL, e as bibliotecas adicionais GLAD, GLFW e GLM.

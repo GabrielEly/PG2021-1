@@ -10,7 +10,7 @@ Arquivo "dependecies", que pode ser encontrado em https://github.com/fellowsheep
 * Inclusão de arquivo "Dependencies.txt" - não é necessário, usado somente como ajuda para vincular as dependências a cada projeto;
 * Remoção de arquivos lib desnecessários da pasta GLFW - não é necessário removê-los, caso já tenho a pasta baixada.
 
-Para atualizar a pasta "dependencies", só é necessário incluir os dois arquivos listados acima.
+Para atualizar a pasta "dependencies", só é necessário incluir os dois primeiros arquivos listados acima.
 
 ### Programas necessários para compilar o projeto:
 - Visual Studio 2019;

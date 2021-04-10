@@ -14,7 +14,7 @@ Arquivo 'dependecies', que pode ser encontrado em https://github.com/fellowsheep
 - Visual Studio 2019;
 
 ### Intruções para compilar as Listas:
-- Fazer um download do repositório;
+- Fazer o download em zip do repositório;
 - Ir até onde o arquivo foi baixado e extrair os arquivos depois abrir PG2021-1;
 - Dentro da pasta PG2021-1 estará as Listas, escolher uma Lista para ser aberta;
 - Dentro das pastas 'Lista' estará as correspondentes soluções das Listas, só precisa abrir a solução da Lista escolhida no Visual Studio (Ex.: "Lista1.sln");

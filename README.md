@@ -7,7 +7,8 @@ Repostas em extenso se encontram dentro da correspondente pasta por meio de um a
 Arquivo 'dependecies', que pode ser encontrado em https://github.com/fellowsheep/PG2021-1/tree/main/dependencies, foi alterado para a resolução dos exercícios, como mostra a seguir:
 * Inclusão de arquivo 'glad.c' - para não precisar repetir a inclusão do mesmo em cada projeto;
 * Inclusão de arquivo 'Shader.h' - para não precisar repetir a inclusão do mesmo em cada projeto;
-* Inclusão de arquivo 'Dependencies.txt' - não é necessário, usado somente como ajuda para vincular as dependências a cada projeto.
+* Inclusão de arquivo 'Dependencies.txt' - não é necessário, usado somente como ajuda para vincular as dependências a cada projeto;
+* Remoção de arquivos lib desnecessários da pasta GLFW - não é necessário removê-los.
 
 ### Programas necessários para compilar o projeto:
 - Visual Studio 2019;

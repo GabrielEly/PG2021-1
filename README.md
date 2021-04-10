@@ -12,6 +12,8 @@ Arquivo "dependecies", que pode ser encontrado em https://github.com/fellowsheep
 
 Para atualizar a pasta "dependencies", só é necessário incluir os dois primeiros arquivos listados acima.
 
+Além disso, é possível que a solução abra no modo de Debug "x64", o certo é o "x86", só precisa mudar o modo de Debug na barra de ferramentas superior do Visual Studio para "x86".
+
 ### Programas necessários para compilar o projeto:
 - Visual Studio 2019;
 
@@ -20,6 +22,7 @@ Para atualizar a pasta "dependencies", só é necessário incluir os dois primei
 - Ir até onde o arquivo foi baixado, clicar com o botão direito do mouse na pasta e depois selecionar "Extrair aqui" e então abrir PG2021-1-main;
 - Dentro da pasta PG2021-1-main estará as Listas, escolher uma Lista para ser aberta;
 - Dentro das pastas "Lista" estará as correspondentes soluções das Listas, só precisa abrir a solução da Lista escolhida no Visual Studio 2019 (Ex.: "Lista1.sln");
+- Verificar o modo de Debug da solução, este deve estar em "x86" na barra de feramentas superior do Visual Studio. Caso não esteja, deverá ser mudado para "x86";
 - Após a solução estar aberta, deve-se selecionar um projeto dentro da Lista para executar (Ex.: "Exercício1"), cada um corresponde a um exercício;
 - No gerenciador de soluções do Visual Studios, clique com o botão direito do mouse em cima de um dos exercícios (Ex.: "Exercício1"), e selecione "Depurar" e depois "Iniciar Nova Instância".
 

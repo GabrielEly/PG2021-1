@@ -1,0 +1,1 @@
+Agora com a ortho nas mesmas dimensões que o tamanho da janela, podemos colocar objetos na tela pensando diretamente em pixels, sem ter que fazer uma conversão indireta pensando nas dimensões de -1 a 1 do openGL, que antes era feito nos exercícios anteriores.

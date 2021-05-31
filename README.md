@@ -1,5 +1,5 @@
 # PG2021-1
-Repositório contendo todas as listas de exercícios do Grau A da disciplina de Processamento Gráfico de 2021.
+Repositório contendo todas as listas de exercícios do Grau A e Grau B da disciplina de Processamento Gráfico de 2021.
 
 ## IMPORTANTE:
 Repostas em extenso se encontram dentro da correspondente pasta por meio de um arquivo.txt, como é o caso do exercício 3 da Lista2.
@@ -14,22 +14,6 @@ Para atualizar a pasta `dependencies`, só é necessário incluir os dois primei
 
 Além disso, é possível que a solução abra no modo de Debug `x64`, o certo é o `x86`, só precisa mudar o modo de Debug na barra de ferramentas superior do Visual Studio para x86.
 
-Talvez apareçam alguns problemas na execução por conta do shader ou das dependências:
-* Caso apareça algum erro de shader, modifique o número versão do core na primeira linha dos arquivos `transformation.fs` e `transformation.vs`, para uma inferior, exemplo: `#version 400 core`, ou menor;
-* Caso tenha problema com as dependências, logo depois ao abrir o projeto no VS, faça a configuração do diretório das dependencias em:
-
-Propriedades > C/C++ > Geral > Diretórios de Inclusão Adicionais > ... Adiciocione os diretórios `GLEW/include`, `GLFW/include`, `irrKlang/include`, `SOIL/include` e `/glm` da pasta `/dependencies` deste projeto, como mostra a imagem a seguir;
-
-
-
-Propriedades > Vinculador > Geral > Diretórios de Biblioteca Adicionais > ... Adiciocione os diretórios `GLEW/lib`, `GLFW/lib`, `irrKlang/lib` e `SOIL/lib` da pasta `/dependencies` deste projeto, como mostra a imagem a seguir;
-
-
-
-Propriedades > Vinculador > Entrada > Dependências Adicionais > ... Adicione as bibliotecas `glfw3.lib`, `glew32s.lib`, `opengl32.lib`, `irrKlang.lib` e `SOIL.lib`, como mostra a imagem a seguir.
-
-
-
 ### Programas necessários para compilar o projeto:
 - Visual Studio 2019;
 
@@ -41,6 +25,22 @@ Propriedades > Vinculador > Entrada > Dependências Adicionais > ... Adicione as
 - Verificar o modo de Debug da solução, este deve estar em x86 na barra de feramentas superior do Visual Studio. Caso não esteja, deverá ser mudado para x86;
 - Após a solução estar aberta, deve-se selecionar um projeto dentro da Lista para executar (Ex.: Exercício1), cada um corresponde a um exercício;
 - No gerenciador de soluções do Visual Studios, clique com o botão direito do mouse em cima de um dos exercícios (Ex.: Exercício1), e selecione `Depurar` e depois `Iniciar Nova Instância`.
+
+### Problemas na execução:
+* Caso apareça algum erro de shader, modifique o número versão do core na primeira linha dos arquivos `transformation.fs` e `transformation.vs`, para uma inferior, exemplo: `#version 400 core`, ou menor;
+* Caso tenha problema com as dependências, logo depois ao abrir o projeto no VS, faça a configuração do diretório das dependencias em:
+
+Propriedades > C/C++ > Geral > Diretórios de Inclusão Adicionais > ... Adiciocione os diretórios `/glm`, `/GLAD/include` e `/GLFW/include` da pasta `/dependencies` deste projeto, como mostra a imagem a seguir;
+
+![C-Geral](readme_images/C-Geral.png)
+
+Propriedades > Vinculador > Geral > Diretórios de Biblioteca Adicionais > ... Adiciocione o diretório `GLFW/lib` da pasta `/dependencies` deste projeto, como mostra a imagem a seguir;
+
+![Vinculador-Geral](readme_images/Vinculador-Geral.png)
+
+Propriedades > Vinculador > Entrada > Dependências Adicionais > ... Adicione as bibliotecas `glfw3.lib` e `opengl32.lib`, como mostra a imagem a seguir.
+
+![Vinculador-Entrada](readme_images/Vinculador-Entrada.png)
 
 ### Informações sobre o código:
 Código usado é C++ juntamente com o OpenGL e GLSL, e as bibliotecas adicionais GLAD, GLFW e GLM.

@@ -14,6 +14,22 @@ Para atualizar a pasta `dependencies`, só é necessário incluir os dois primei
 
 Além disso, é possível que a solução abra no modo de Debug `x64`, o certo é o `x86`, só precisa mudar o modo de Debug na barra de ferramentas superior do Visual Studio para x86.
 
+Talvez apareçam alguns problemas na execução por conta do shader ou das dependências:
+* Caso apareça algum erro de shader, modifique o número versão do core na primeira linha dos arquivos `transformation.fs` e `transformation.vs`, para uma inferior, exemplo: `#version 400 core`, ou menor;
+* Caso tenha problema com as dependências, logo depois ao abrir o projeto no VS, faça a configuração do diretório das dependencias em:
+
+Propriedades > C/C++ > Geral > Diretórios de Inclusão Adicionais > ... Adiciocione os diretórios `GLEW/include`, `GLFW/include`, `irrKlang/include`, `SOIL/include` e `/glm` da pasta `/dependencies` deste projeto, como mostra a imagem a seguir;
+
+
+
+Propriedades > Vinculador > Geral > Diretórios de Biblioteca Adicionais > ... Adiciocione os diretórios `GLEW/lib`, `GLFW/lib`, `irrKlang/lib` e `SOIL/lib` da pasta `/dependencies` deste projeto, como mostra a imagem a seguir;
+
+
+
+Propriedades > Vinculador > Entrada > Dependências Adicionais > ... Adicione as bibliotecas `glfw3.lib`, `glew32s.lib`, `opengl32.lib`, `irrKlang.lib` e `SOIL.lib`, como mostra a imagem a seguir.
+
+
+
 ### Programas necessários para compilar o projeto:
 - Visual Studio 2019;
 
@@ -33,15 +49,15 @@ OBS: Alguns exercícios eram particionados em partes (Ex.: 1.a, 1.b, 1.c) e fora
 Outros exercícios foram feitos junto com outros e colocados em um projeto só, eles aparecem como no exemplo a seguir: `Exercício1-3` - resposta dos exercício de número 1 a 3.
 
 * `Lista1:`
-  - Projetos `Exercício1` ao `Exercício5` foram utilizados como base do código uma adaptação de https://learnopengl.com/code_viewer_gh.php?code=src/1.getting_started/2.1.hello_triangle/hello_triangle.cpp;
-  - Projetos `Exercício6` e `Exercício7` foram utilizados como base o código do learnopengl acima adaptado por Rossana Baptista Queiroz, que se encontra em https://github.com/fellowsheep/PG2021-1/blob/main/HelloTriangle/HelloTriangle/Source.cpp.
+  - Projetos "Exercício1" ao "Exercício5" foram utilizados como base do código uma adaptação de https://learnopengl.com/code_viewer_gh.php?code=src/1.getting_started/2.1.hello_triangle/hello_triangle.cpp;
+  - Projetos "Exercício6" e "Exercício7" foram utilizados como base o código do learnopengl acima adaptado por Rossana Baptista Queiroz, que se encontra em https://github.com/fellowsheep/PG2021-1/blob/main/HelloTriangle/HelloTriangle/Source.cpp.
 * `Lista2:`
   - Projetos "Exercício1-3" e "Exercício4-5" foram utilizados como base o código do learnopengl mais acima adaptado por Rossana Baptista Queiroz, que se encontra em https://github.com/fellowsheep/PG2021-1/blob/main/CameraOrtho/CameraOrtho/Source.cpp.
 * `Lista3:`
   - Projetos "Exercício1" e "Exercício2" mesma coisa dos projetos da Lista2.
 * `Lista5:`
   - Projeto "Exercício1-2" foi baseado no código adaptado do learnopengl por Rossana Baptista Queiroz, que pode ser encontrado em https://github.com/fellowsheep/PG2021-1/tree/main/Framework-PG/Framework-PG.
-  - Após rodar a solução da Lista5, apareceram todos os filtros de uma vez, dos quais, lendo por linha:
-    - Linha 1: Exercício a;
-    - Linha 2: Exercício b, c, d;
-    - Linha 3: Exercício e, f, g.
+  - Após rodar a solução da Lista5, irá aparecer todos os filtros de uma vez, dividos por linha:
+    - Linha 1: Exercício A;
+    - Linha 2: Exercício B, C, D;
+    - Linha 3: Exercício E, F, G.

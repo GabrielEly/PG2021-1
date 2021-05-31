@@ -57,6 +57,7 @@ Outros exercícios foram feitos junto com outros e colocados em um projeto só, 
   - Projetos "Exercício1" e "Exercício2" mesma coisa dos projetos da Lista2.
 * `Lista5:`
   - Projeto "Exercício1-2" foi baseado no código adaptado do learnopengl por Rossana Baptista Queiroz, que pode ser encontrado em https://github.com/fellowsheep/PG2021-1/tree/main/Framework-PG/Framework-PG.
+  - Exercício G (Vignette) foi baseado no tutorial de shader feito por Matt DesLauriers, encontrado em https://github.com/mattdesl/lwjgl-basics/wiki/ShaderLesson3.
   - Após rodar a solução da Lista5, irá aparecer todos os filtros de uma vez, dividos por linha:
     - Linha 1: Exercício A;
     - Linha 2: Exercício B, C, D;

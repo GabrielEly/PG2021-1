@@ -39,3 +39,5 @@ Outros exercícios foram feitos junto com outros e colocados em um projeto só, 
   - Projetos "Exercício1-3" e "Exercício4-5" foram utilizados como base o código do learnopengl mais acima adaptado por Rossana Baptista Queiroz, que se encontra em https://github.com/fellowsheep/PG2021-1/blob/main/CameraOrtho/CameraOrtho/Source.cpp.
 * Lista3:
   - Projetos "Exercício1" e "Exercício2" mesma coisa dos projetos da Lista2.
+* Lista 5;
+  - Projeto "Exercício1-2" foi baseado no código adaptado do learnopengl por Rossana Baptista Queiroz, que pode ser encontrado em https://github.com/fellowsheep/PG2021-1/tree/main/Framework-PG/Framework-PG.
